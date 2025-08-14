@@ -20,7 +20,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_Cvvn0Hg7EfCAiKO_ouBPKA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_I9sX0Hg7EfCAiKO_ouBPKA" name="[LAB] Structure" repPath="#_I9m4QHg7EfCAiKO_ouBPKA" changeId="1755178449139">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_I9sX0Hg7EfCAiKO_ouBPKA" name="[LAB] Structure" repPath="#_I9m4QHg7EfCAiKO_ouBPKA" changeId="1755179215831">
         <eAnnotations xmi:type="description:DAnnotation" uid="_I95zMHg7EfCAiKO_ouBPKA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I95zMXg7EfCAiKO_ouBPKA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I95zMng7EfCAiKO_ouBPKA" key="hide.computed.physical.links.filter" value="true"/>
@@ -251,7 +251,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_hGabkHhMEfCAiKO_ouBPKA" name="HSS_HSSS_to_AGSS" sourceNode="_hGWKIHhMEfCAiKO_ouBPKA" targetNode="_hGXYQHhMEfCAiKO_ouBPKA">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_hGabkHhMEfCAiKO_ouBPKA" name="hss_hsss_to_agss" sourceNode="_hGWKIHhMEfCAiKO_ouBPKA" targetNode="_hGXYQHhMEfCAiKO_ouBPKA">
       <target xmi:type="org.polarsys.capella.core.data.fa:ComponentExchange" href="Interface_Control_Example.capella#304dad2a-1d26-46f3-a8d4-b3ae841c571b"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:ComponentExchange" href="Interface_Control_Example.capella#304dad2a-1d26-46f3-a8d4-b3ae841c571b"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_hGbCoHhMEfCAiKO_ouBPKA" targetArrow="NoDecoration" centered="Both" strokeColor="74,74,151">

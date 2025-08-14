@@ -457,7 +457,7 @@
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="6ea6abbf-38ef-40f6-af45-fb80f6cc8465" name="Logical System">
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="304dad2a-1d26-46f3-a8d4-b3ae841c571b" name="HSS_HSSS_to_AGSS" source="#2e27d5eb-c237-469d-8652-121e3de82257"
+              id="304dad2a-1d26-46f3-a8d4-b3ae841c571b" name="hss_hsss_to_agss" source="#2e27d5eb-c237-469d-8652-121e3de82257"
               target="#40bcc2fc-d8b5-40a0-93a0-8fb4a77db97c" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="c489b32b-6fc9-4cad-95dc-71097ac4f652" name="C 2" source="#86413723-43b9-49fc-89ce-de8e31c01a0f"
