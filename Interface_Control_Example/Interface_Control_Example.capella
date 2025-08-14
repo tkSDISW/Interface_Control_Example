@@ -457,13 +457,13 @@
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="6ea6abbf-38ef-40f6-af45-fb80f6cc8465" name="Logical System">
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="304dad2a-1d26-46f3-a8d4-b3ae841c571b" name="C 1" source="#2e27d5eb-c237-469d-8652-121e3de82257"
+              id="304dad2a-1d26-46f3-a8d4-b3ae841c571b" name="HSS_HSSS_to_AGSS" source="#2e27d5eb-c237-469d-8652-121e3de82257"
               target="#40bcc2fc-d8b5-40a0-93a0-8fb4a77db97c" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="c489b32b-6fc9-4cad-95dc-71097ac4f652" name="C 2" source="#86413723-43b9-49fc-89ce-de8e31c01a0f"
               target="#56340e98-5b44-4c54-ae9d-be04752a107b" kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4bd2367d-1b69-419a-9923-b9ba74d02628"
-              name="HSS-HSSS" abstractType="#de7e1e9d-8dcf-4620-a3ff-49d4369fd992"/>
+              name="HSS_HSSS" abstractType="#de7e1e9d-8dcf-4620-a3ff-49d4369fd992"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="08be4525-01bd-45c2-9cf9-10c44cdab5e9"
               name="AGSS" abstractType="#0fbaf2af-1fd3-47b8-a4a0-5589c00c2bb5"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="77be5070-bd76-452c-9a01-8cc5205e1011"
@@ -472,7 +472,7 @@
               id="d9860cdb-9e28-46a8-aa03-200445a3b8da" targetElement="#aef73a52-5592-4551-aa32-be39f3c8e379"
               sourceElement="#6ea6abbf-38ef-40f6-af45-fb80f6cc8465"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="de7e1e9d-8dcf-4620-a3ff-49d4369fd992" name="HSS-HSSS">
+              id="de7e1e9d-8dcf-4620-a3ff-49d4369fd992" name="HSS_HSSS">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="2e27d5eb-c237-469d-8652-121e3de82257" name="CP 1" orientation="OUT"
                 kind="FLOW"/>
