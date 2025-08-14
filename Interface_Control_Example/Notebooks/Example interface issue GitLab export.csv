@@ -1,0 +1,360 @@
+Title,Description,Issue ID,URL,State,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent,Epic ID,Epic Title
+"HSS-HSSS to AGSS
+High Pressure Helium Makeup for AGSS Charge/Discharge buffers","# System 1 SBS tag:
+
+HSSS
+
+# System 1 Component Interface Description:
+
+OPC 5878
+GASEOUS HELIUM
+FROM HSS-HPS  
+
+D25-01-AGSS-SC1C-131
+D25-01-AGSS-SC1C-131
+D25-01-AGSS-SC1C-449
+
+# System 2 SBS tag:
+
+AGSS
+
+# System 2 Component Interface Description:
+
+Auxiliary Gas Service System Manifold
+A000N542
+D25 pipe
+
+
+D25-01-AGSS-SC1C-131
+D25-01-AGSS-SC1C-449
+
+# Reference Documents
+
+Auxiliary Gas Service System Manifold
+A000N542
+HSSS not modeled
+010357r3
+
+P&ID= Appendix B010357
+
+# Quantity
+
+4
+
+---
+
+# Process Interface Information
+
+- Interface_Diameter= DN25
+1NPS
+- Interface_Elevation= 4TH FLOOR
+- Pipe_Specification= SC1C
+- Insulation_Specification= 
+- Nominal_Flow_Rate= 5g/s 
+Additional flow during fuel loading and unloading
+0.0397 kpph 
+- Maximum_Flow_Rate= TBD
+- Minimum_Flow_Rate= TBD
+- Nominal_Pressure= 6.2 Mpa
+899.2PSI
+- Maximum_Pressure= TBD
+- Minimum_Pressure= TBD
+- Nominal_Temperature= 10C
+50F
+- Maximum_Temperature= 100C
+212F
+- Minimum_Temperature= 5C
+41F
+- Heat_Transfer= 
+
+---
+
+# Structural Interface Information
+
+- Internal_or_External= Internal
+- Subcategory= Pipe Flange
+- Weight= Pipe/Valve not modeled 
+AGSS Manifold A000N542
+- Size= Pipe/Valve not modeled 
+A000N542
+- Location= FHS Floor 4
+Pumps/Blowers Area
+
+
+---
+# Help Walkthrough
+
+![Interfaces in Gitlab Help](Help Videos/InterfaceGitLab.mp4)",435,https://git100.x-energy.com/XE/PM/PLM/interface-management/interfaces-tracker/-/issues/435,Open,Joel Dixon,jdixon,,,No,No,,8/5/2025 16:54,8/5/2025 18:15,,,1,"InterfaceState :: Draft,InterfaceType: Process,InterfaceType: Structural,InterfaceType: Thermal,System | FHS,System | HSS",0,0,,
+AGSS to HRS Recovered Helium from Charge and Discharge Buffers to Helium Recovery system,"# System 1 SBS tag:
+
+AGSS
+
+# System 1 Component Interface Description:
+
+AGSS Valve
+
+ 
+
+# System 2 SBS tag:
+
+HRS
+
+# System 2 Component Interface Description:
+
+D25 Pipe
+
+OPC 5879 Gaseous Helium to HSS-HDS
+
+# Reference Documents
+
+010800/1  A000N542  010357/3
+
+P&ID= Appendix B010357
+
+# Quantity
+
+4
+
+---
+
+# Process Interface Information
+
+- Interface_Diameter= DN25
+- Interface_Elevation= 4TH FLOOR
+- Pipe_Specification= SC9A
+- Insulation_Specification=  
+- Nominal_Flow_Rate=  
+- Maximum_Flow_Rate= .0714 kpph (9 g/s) for 30 second pulse 12x/day
+- Minimum_Flow_Rate=  
+- Nominal_Pressure= 870.2 psig (6MPa)
+- Maximum_Pressure= 1015.3 psig (7 MPa)
+- Minimum_Pressure= 29.0 psig (0.2 MPa)
+- Nominal_Temperature= 140 F
+- Maximum_Temperature=  
+- Minimum_Temperature=  
+- Heat_Transfer= 
+
+---
+
+# Structural Interface Information
+
+- Internal_or_External= Internal
+- Subcategory= Pipe Flange
+- Weight= Pipe/Valve not modeled AGSS Manifold A000N542
+- Size= Pipe/Valve not modeled A000N542
+- Location= FHS Floor 4
+
+
+---
+# Help Walkthrough
+
+![Interfaces in Gitlab Help](Help Videos/InterfaceGitLab.mp4)",440,https://git100.x-energy.com/XE/PM/PLM/interface-management/interfaces-tracker/-/issues/440,Open,Joel Dixon,jdixon,,,No,No,,8/5/2025 16:54,8/5/2025 18:14,,,1,"InterfaceState :: Draft,InterfaceType: Process,System | FHS,System | HSS",0,0,,
+"AGSS to HRS
+Recovered Helium from Charge and Discharge Buffers to Helium Recovery system","# System 1 SBS tag:
+
+AGSS
+
+# System 1 Component Interface Description:
+
+D25 pipe
+
+D25-01-AGSS-SC9A-133
+
+# System 2 SBS tag:
+
+HRS
+
+# System 2 Component Interface Description:
+
+D25 Pipe
+
+
+
+OPC 5879
+GASEOUS HELIUM
+TO HSS-HDS
+
+# Reference Documents
+
+Auxiliary Gas Service System Manifold
+A000N542
+HRS Not modeled
+010357r3
+
+P&ID= Appendix B010357
+
+# Quantity
+
+4
+
+---
+
+# Process Interface Information
+
+- Interface_Diameter= DN25
+1NPS
+- Interface_Elevation= 4TH FLOOR
+- Pipe_Specification= SC9A
+- Insulation_Specification= 
+- Nominal_Flow_Rate= 
+- Maximum_Flow_Rate= 9g/s for 30 second pulse 12x/day
+0.32 465 Oz/s
+- Minimum_Flow_Rate= TBD
+- Nominal_Pressure= 6MPa
+870.2PSI
+- Maximum_Pressure= 7MPa
+1015.4PSI
+- Minimum_Pressure= 0.2MPa
+29.01PSI
+- Nominal_Temperature= 60C
+140F
+- Maximum_Temperature= TBD
+- Minimum_Temperature= TBD
+- Heat_Transfer= 
+
+---
+
+# Structural Interface Information
+
+- Internal_or_External= Internal
+- Subcategory= Pipe Flange
+- Weight= Pipe/Valve not modeled 
+AGSS Manifold A000N542
+- Size= Pipe/Valve not modeled 
+A000N542
+- Location= FHS Floor 4
+Pumps/Blowers Area
+
+
+---
+# Help Walkthrough
+
+![Interfaces in Gitlab Help](Help Videos/InterfaceGitLab.mp4)",441,https://git100.x-energy.com/XE/PM/PLM/interface-management/interfaces-tracker/-/issues/441,Open,Joel Dixon,jdixon,,,No,No,,8/5/2025 16:54,8/5/2025 18:14,,,1,"InterfaceState :: Draft,InterfaceType: Process,InterfaceType: Structural,InterfaceType: Thermal,System | FHS,System | HSS",0,0,,
+GASS Skid Space Allocation within HSF,"# System 1 SBS tag:
+
+HSF
+
+# System 1 Component Interface Description:
+
+Concrete Slab
+
+ 
+
+# System 2 SBS tag:
+
+GASS
+
+# System 2 Component Interface Description:
+
+GASS Skid
+
+GASS-SKD-001
+
+# Reference Documents
+
+010800/1  010669/1
+
+P&ID=  
+
+# Quantity
+
+4
+
+---
+
+# Process Interface Information
+
+- Interface_Diameter=  
+- Interface_Elevation= HSF Ground Level
+- Pipe_Specification=  
+- Insulation_Specification=  
+- Nominal_Flow_Rate=  
+- Maximum_Flow_Rate=  
+- Minimum_Flow_Rate=  
+- Nominal_Pressure=  
+- Maximum_Pressure=  
+- Minimum_Pressure=  
+- Nominal_Temperature=  
+- Maximum_Temperature=  
+- Minimum_Temperature=  
+- Heat_Transfer= 
+
+---
+
+# Structural Interface Information
+
+- Internal_or_External= Internal
+- Subcategory= Space Allocation
+- Weight= 11080.4 lb
+- Size= 8' 6'' x 8' 6 3/8''
+- Location= HSF Unit 4
+
+
+---
+# Help Walkthrough
+
+![Interfaces in Gitlab Help](Help Videos/InterfaceGitLab.mp4)",532,https://git100.x-energy.com/XE/PM/PLM/interface-management/interfaces-tracker/-/issues/532,Open,Joel Dixon,jdixon,,,No,No,,8/5/2025 16:55,8/5/2025 18:14,,,1,"Building | HSF,InterfaceState :: Draft,InterfaceType: Structural,System | HSS",0,0,,
+GASS Skid Support within HSF,"# System 1 SBS tag:
+
+HSF
+
+# System 1 Component Interface Description:
+
+Concrete Slab
+
+ 
+
+# System 2 SBS tag:
+
+GASS
+
+# System 2 Component Interface Description:
+
+GASS Skid
+
+GASS-SKD-001A/B
+
+# Reference Documents
+
+010800/1  010669/1
+
+P&ID=  
+
+# Quantity
+
+8
+
+---
+
+# Process Interface Information
+
+- Interface_Diameter=  
+- Interface_Elevation= HSF Ground Level
+- Pipe_Specification=  
+- Insulation_Specification=  
+- Nominal_Flow_Rate=  
+- Maximum_Flow_Rate=  
+- Minimum_Flow_Rate=  
+- Nominal_Pressure=  
+- Maximum_Pressure=  
+- Minimum_Pressure=  
+- Nominal_Temperature=  
+- Maximum_Temperature=  
+- Minimum_Temperature=  
+- Heat_Transfer= 
+
+---
+
+# Structural Interface Information
+
+- Internal_or_External= Internal
+- Subcategory= Support
+- Weight= 11080.4 lb
+- Size= 8' 6'' x 8' 6 3/8''
+- Location= HSF Unit 4
+
+
+---
+# Help Walkthrough
+
+![Interfaces in Gitlab Help](Help Videos/InterfaceGitLab.mp4)",533,https://git100.x-energy.com/XE/PM/PLM/interface-management/interfaces-tracker/-/issues/533,Open,Joel Dixon,jdixon,,,No,No,,8/5/2025 16:55,8/5/2025 18:14,,,1,"Building | HSF,InterfaceState :: Draft,InterfaceType: Structural,System | HSS",0,0,,
