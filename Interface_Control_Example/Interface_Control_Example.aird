@@ -20,7 +20,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_Cvvn0Hg7EfCAiKO_ouBPKA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_I9sX0Hg7EfCAiKO_ouBPKA" name="[LAB] Structure" repPath="#_I9m4QHg7EfCAiKO_ouBPKA" changeId="1755280151251">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_I9sX0Hg7EfCAiKO_ouBPKA" name="[LAB] Structure" repPath="#_I9m4QHg7EfCAiKO_ouBPKA" changeId="1755281657450">
         <eAnnotations xmi:type="description:DAnnotation" uid="_I95zMHg7EfCAiKO_ouBPKA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I95zMXg7EfCAiKO_ouBPKA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I95zMng7EfCAiKO_ouBPKA" key="hide.computed.physical.links.filter" value="true"/>
