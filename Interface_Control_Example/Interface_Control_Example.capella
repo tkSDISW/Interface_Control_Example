@@ -457,9 +457,67 @@
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="6ea6abbf-38ef-40f6-af45-fb80f6cc8465" name="Logical System">
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="304dad2a-1d26-46f3-a8d4-b3ae841c571b" name="hss_hsss_to_agss" description="&lt;div class=&quot;pvg-root&quot;>&#xA;  &lt;h3 class=&quot;pvg-heading&quot;>Interface Properties&lt;/h3>      &lt;p>&lt;em>No Property Value Groups are attached.&lt;/em>&lt;/p>&#xA;  &lt;/div>&#xA;&#xA;&lt;style>&#xA;.pvg-root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.35; }&#xA;.pvg-heading { margin: 0.2rem 0 0.6rem 0; }&#xA;.pvg { margin: 0.4rem 0 0.6rem 0; }&#xA;.pvg-title { font-weight: 600; cursor: pointer; display: inline-flex; gap: .5rem; align-items: center; }&#xA;.pvg-badge { font-size: .75em; padding: 1px 6px; border: 1px solid #bbb; border-radius: 999px; color: #444; }&#xA;.pvg-desc { margin: 0.25rem 0 0.4rem 0; color: #444; font-size: 0.95em; }&#xA;.pv-table { border-collapse: collapse; width: 100%; margin-top: 0.3rem; }&#xA;.pv-table th, .pv-table td { border: 1px solid #ddd; padding: 4px 6px; vertical-align: top; }&#xA;.pv-name { width: 40%; font-weight: 500; }&#xA;.pv-val { width: 60%; }&#xA;&lt;/style>"
+              id="304dad2a-1d26-46f3-a8d4-b3ae841c571b" name="hss_hsss_to_agss" description="&lt;div class=&quot;pvg-root&quot;>&#xA;  &lt;h3 class=&quot;pvg-heading&quot;>Interface Properties&lt;/h3>            &lt;section class=&quot;pvg&quot;>&#xA;    &lt;details open=&quot;&quot;>&#xA;      &lt;summary class=&quot;pvg-title&quot;>&#xA;        structural&#xA;        &lt;span class=&quot;pvg-badge&quot;>owned&lt;/span>      &lt;/summary>&#xA;            &lt;div class=&quot;pvg-desc&quot;>stuctural interface&lt;/div>&#xA;                  &lt;table class=&quot;pv-table&quot;>&#xA;        &lt;thead>&lt;tr>&lt;th>Property&lt;/th>&lt;th>Value&lt;/th>&lt;/tr>&lt;/thead>&#xA;        &lt;tbody>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Internal_or_External&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Subcategory&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Weight&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Size&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Location&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                  &lt;/tbody>&#xA;      &lt;/table>&#xA;                &lt;/details>&#xA;  &lt;/section>&#xA;          &lt;section class=&quot;pvg&quot;>&#xA;    &lt;details open=&quot;&quot;>&#xA;      &lt;summary class=&quot;pvg-title&quot;>&#xA;        process&#xA;        &lt;span class=&quot;pvg-badge&quot;>owned&lt;/span>      &lt;/summary>&#xA;            &lt;div class=&quot;pvg-desc&quot;>process&lt;/div>&#xA;                  &lt;table class=&quot;pv-table&quot;>&#xA;        &lt;thead>&lt;tr>&lt;th>Property&lt;/th>&lt;th>Value&lt;/th>&lt;/tr>&lt;/thead>&#xA;        &lt;tbody>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Interface_Diameter&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Interface_Elevation&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Pipe_Specification&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Insulation_Specification&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Nominal_Flow_Rate&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Maximum_Flow_Rate&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Minimum_Flow_Rate&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Nominal_Pressure&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Maximum_Pressure&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Minimum_Pressure&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Nominal_Temperature&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Maximum_Temperature&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Minimum_Temperature&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                                        &lt;tr title=&quot;&quot;>&#xA;            &lt;td class=&quot;pv-name&quot;>Heat_Transfer&lt;/td>&#xA;            &lt;td class=&quot;pv-val&quot;/>&#xA;          &lt;/tr>&#xA;                  &lt;/tbody>&#xA;      &lt;/table>&#xA;                &lt;/details>&#xA;  &lt;/section>&#xA;      &lt;/div>&#xA;&#xA;&lt;style>&#xA;.pvg-root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.35; }&#xA;.pvg-heading { margin: 0.2rem 0 0.6rem 0; }&#xA;.pvg { margin: 0.4rem 0 0.6rem 0; }&#xA;.pvg-title { font-weight: 600; cursor: pointer; display: inline-flex; gap: .5rem; align-items: center; }&#xA;.pvg-badge { font-size: .75em; padding: 1px 6px; border: 1px solid #bbb; border-radius: 999px; color: #444; }&#xA;.pvg-desc { margin: 0.25rem 0 0.4rem 0; color: #444; font-size: 0.95em; }&#xA;.pv-table { border-collapse: collapse; width: 100%; margin-top: 0.3rem; }&#xA;.pv-table th, .pv-table td { border: 1px solid #ddd; padding: 4px 6px; vertical-align: top; }&#xA;.pv-name { width: 40%; font-weight: 500; }&#xA;.pv-val { width: 60%; }&#xA;&lt;/style>"
               source="#2e27d5eb-c237-469d-8652-121e3de82257" target="#40bcc2fc-d8b5-40a0-93a0-8fb4a77db97c"
-              kind="FLOW"/>
+              kind="FLOW" appliedPropertyValueGroups="#a557d05f-93f8-4b86-965a-f897f3b878a1 #1a591993-7022-4288-9997-50d5501558da">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="a557d05f-93f8-4b86-965a-f897f3b878a1" name="structural" description="stuctural interface">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="b5007ff8-0c30-47ca-839f-ca2bcd8fd82d" name="Internal_or_External"
+                  value="Internal"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="1dea2a06-05d1-4f97-9b89-d7bf1a31e7d6" name="Subcategory" value="Pipe Flange"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="c1a69c86-72f8-4236-bb09-08d1700f8edb" name="Weight" value="Pipe/Valve not modeled"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="4c103da7-ea75-4ead-879a-9d3fd6000e2c" name="Size" value="Pipe/Valve not modeled"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="2c5809fe-89e0-458e-9edf-354709d44049" name="Location" value="FHS Floor 4"/>
+            </ownedPropertyValueGroups>
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="1a591993-7022-4288-9997-50d5501558da" name="process" description="process">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="2f2d8d2b-b41b-4656-9fe4-025f5bcb68fe" name="Interface_Diameter"
+                  value="DN25"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="5237299b-20b0-4902-ad75-978317732d8e" name="Interface_Elevation"
+                  value="4TH FLOOR"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="63f0b1bd-9db2-4fad-979b-1cd595e3154c" name="Pipe_Specification"
+                  value="SC1C"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="967bf011-b008-41c7-a4f2-7a26fdd3c74b" name="Insulation_Specification"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="7f53eb8e-23e1-4707-b23b-6fb237032e1b" name="Nominal_Flow_Rate"
+                  value="5g/s"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="13e3dfee-ee8b-41ff-8ebd-4b275344dd7e" name="Maximum_Flow_Rate"
+                  value="TBD"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="63dcd3b1-71bc-43f0-8c23-4853ccb70130" name="Minimum_Flow_Rate"
+                  value="TBD"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="7ae425f4-f852-4e61-8cb7-bd55ee0f72cb" name="Nominal_Pressure"
+                  value="6.2 Mpa"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="9977e1e1-8aeb-4ea8-b2c5-916467de1d53" name="Maximum_Pressure"
+                  value="TBD"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="5204c688-1003-4ae2-84b2-a1e7b7f110f1" name="Minimum_Pressure"
+                  value="TBD"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="526a13fd-1771-479f-b9a8-80fc239b7a58" name="Nominal_Temperature"
+                  value="10C"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="b404ea0f-a5e2-4274-86f8-5ccb533ed506" name="Maximum_Temperature"
+                  value="100C"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="f0197242-9622-4e87-9548-c0abffc3b55a" name="Minimum_Temperature"
+                  value="5C"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="81479900-4a48-4201-93f1-1e09fd800ff9" name="Heat_Transfer"/>
+            </ownedPropertyValueGroups>
+          </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="c489b32b-6fc9-4cad-95dc-71097ac4f652" name="C 2" source="#86413723-43b9-49fc-89ce-de8e31c01a0f"
               target="#56340e98-5b44-4c54-ae9d-be04752a107b" kind="FLOW"/>
